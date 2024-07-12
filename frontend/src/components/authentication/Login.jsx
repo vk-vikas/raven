@@ -7,7 +7,7 @@ const Login = () => {
   const [password, setPassword] = useState("");
 
   return (
-    <div className="flex items-center justify-center flex-col border-solid border-2">
+    <div className="bg-gray-200 m-32 p-16 flex items-center justify-center flex-col border-solid border-2">
       <Input
         label="username"
         bgColor="slate-900"

@@ -3,8 +3,7 @@ import Login from "../components/authentication/Login";
 
 const Homepage = () => {
   return (
-    <div className="">
-      Homepage
+    <div className="flex items-center justify-center">
       <Login />
     </div>
   );
